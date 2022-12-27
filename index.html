@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    
+    <div class="card-group">
+
+        <!-- front card -->
+        <div class="front-card">
+            <h2 class="BankName" id="bankname">THAI</h2>
+            <h2 class="LogoHere" id="logo">Logo Here</h2>
+            <div class="arrow"></div>
+            <img class="card-chip" src="https://img.icons8.com/fluency/344/sim-card-chip.png">
+            <div class="number-card" id="numbercard">0123 4567 8900</div>
+            <div class="validate">
+                <span>VALI <br> DATE</span>
+                <div class="numberdate" id="numberdate">12/32</div>
+            </div>
+            <div class="ownername" id="ownername">khathathon</div>
+            <div class="circle-red"></div>
+            <div class="circle-yellow"></div>
+        </div>
+
+        <!-- back card -->
+        <div class="back-card">
+            <div class="black-line"></div>
+            <div class="line-cvc">
+                <span class="line"></span>
+                <span class="cvc" id="cvc-code">213</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sit repellat nesciunt libero tempora voluptatem,
+            est quidem, quis nulla ducimus at architecto consequatur illo laborum. Quod distinctio et mollitia voluptates
+            perferendis eligendi
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum est saepe ab distinctio, sit.</p>
+        </div>
+        
+    </div>
+
+    <!-- form -->
+    <div class="container-form">
+        <form>
+            <div class="div-owner-name">
+                <label for="OwnerName">Owner Name</label>
+                <input type="text" name="OwnerName" id="OwnerName">
+            </div>
+            <div class="div-bank-name">
+                <label for="BankName">Bank Name</label>
+                <input type="text" name="BankName" id="BankName">
+            </div>
+            <div class="div-card-number">
+                <label for="CardNumber">Card Number</label>
+                <input type="text" name="CardNumber" id="CardNumber">
+            </div>
+            <div class="div-mm-cvc">
+                <label for="MMYY">MM / YY</label>
+                <input type="text" name="MMYY" id="MMYY">
+                <label for="CVC">CVC Code</label>
+                <input type="text" name="CVC" id="CVC">
+            </div>
+            <button type="submit" id="submit">PLAY NOW</button>
+        </form>
+    </div>
+
+    <!-- link js -->
+    <script src="app.js"></script>
+</body>
+</html>
