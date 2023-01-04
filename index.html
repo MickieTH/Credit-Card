@@ -16,10 +16,14 @@
 
         <!-- front card -->
         <div class="front-card">
-            <h2 class="BankName" id="bankname">THAI</h2>
-            <h2 class="LogoHere" id="logo">Logo Here</h2>
-            <div class="arrow"></div>
-            <img class="card-chip" src="https://img.icons8.com/fluency/344/sim-card-chip.png">
+            <div class="header-bank">
+                <h2 class="BankName" id="bankname">Bank Name</h2>
+                <h2 class="LogoHere" id="logo">Logo Here</h2>
+            </div>
+            <div class="arrow-chip">
+                <div class="arrow"> < </div>
+                <img class="card-chip" src="https://img.icons8.com/fluency/344/sim-card-chip.png">
+            </div>
             <div class="number-card" id="numbercard">0123 4567 8900</div>
             <div class="validate">
                 <span>VALI <br> DATE</span>
@@ -62,12 +66,16 @@
                 <input type="text" name="CardNumber" id="CardNumber">
             </div>
             <div class="div-mm-cvc">
-                <label for="MMYY">MM / YY</label>
-                <input type="text" name="MMYY" id="MMYY">
-                <label for="CVC">CVC Code</label>
-                <input type="text" name="CVC" id="CVC">
+                <div class="MMYY">
+                    <label for="MMYY">MM / YY</label>
+                    <input type="text" name="MMYY" id="MMYY">
+                </div>
+                <div class="CVC">
+                    <label for="CVC">CVC Code</label>
+                    <input type="text" name="CVC" id="CVC">
+                </div>
             </div>
-            <button type="submit" id="submit">PLAY NOW</button>
+            <button type="submit" id="submit">PAY NOW</button>
         </form>
     </div>
 

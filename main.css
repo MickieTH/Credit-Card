@@ -3,3 +3,101 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.card-group {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: red; */
+
+    align-items: center;
+}
+
+.front-card, .back-card {
+    width: 400px;
+    height: 230px;
+    border-radius: 15px;
+    
+    background-color: antiquewhite;
+}
+
+.header-bank {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+img.card-chip {
+    width: 75px;
+    height: 75px;
+}
+
+.arrow-chip {
+    display: flex;
+}
+
+/* from */
+/* .container-form {
+    max-width: 100%;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: red;
+} */
+
+form {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.div-owner-name, .div-bank-name, .div-card-number {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    color: #D8D8D8;
+}
+
+label {
+    font-size: 1rem;
+}
+
+input {
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.div-mm-cvc {
+    display: flex;
+    margin-top: 20px;
+    color: #D8D8D8;
+}
+
+.MMYY, .CVC {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+button {
+    max-width: 100%;
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 20px;
+    background-color: #5d90e2;
+
+    border: none;
+    border-radius: 10px;
+
+    color: #fff;
+    cursor: pointer;
+}
