@@ -14,6 +14,11 @@
     /* background-color: red; */
 
     align-items: center;
+
+    color: #fff;
+
+    
+
 }
 
 .front-card, .back-card {
@@ -21,23 +26,143 @@
     height: 230px;
     border-radius: 15px;
     
-    background-color: antiquewhite;
+    background: linear-gradient(to right bottom, #040382, #50bdfc, #0403);
+    box-shadow: 1px 0 2px #000;
+
+    
 }
 
 .header-bank {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
+    /* justify-content: space-evenly; */
+    margin-top: 20px;
+}
+
+h2.BankName {
+    margin-left: 1rem;
+    text-shadow: 1px 0 2px #000;
+}
+
+.LogoHere{
+    margin-left: 8.5rem;
+    text-shadow: 1px 0 2px #000;
 }
 
 img.card-chip {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
 }
 
 .arrow-chip {
     display: flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-top: 15px;
 }
+
+.arrow {
+    margin-left: .5rem;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+.number-card {
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+
+    margin-top: 5px;
+    color: #fff;
+    text-shadow: 1px 0 2px #000;
+    
+}
+
+.validate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.ownername {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 1.5rem;
+    margin-top: 15px;
+    text-shadow: 1px 0 2px #000;
+}
+
+.circle-red {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    margin-left: 19.5rem;
+    margin-top: -3rem;
+
+    z-index: 1;
+}
+
+.circle-yellow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ef991a;
+    /* position: absolute; */
+    margin-left: 21rem;
+    margin-top: -3rem;
+
+    z-index: -1;
+}
+
+/* back card */
+.black-line {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #000;
+}
+
+.line-cvc {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+
+    align-items: center;
+}
+.line {
+    width: 70%;
+    height: 30px;
+    background: #ccc;
+    /* position: absolute; */
+}
+
+.cvc {
+    color: #000;
+    width: 2.5rem;
+    height: 1.5rem;
+    background-color: #fff;
+
+    text-align: center;
+    top: 10px;
+}
+
+p {
+    width: 90%;
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 12px;
+}
+
+
+
 
 /* from */
 /* .container-form {
