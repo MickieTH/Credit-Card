@@ -41,11 +41,13 @@
 h2.BankName {
     margin-left: 1rem;
     text-shadow: 1px 0 2px #000;
+    position: fixed;
 }
 
 .LogoHere{
-    margin-left: 8.5rem;
+    margin-left: 17rem;
     text-shadow: 1px 0 2px #000;
+    position: fixed;
 }
 
 img.card-chip {
@@ -58,7 +60,7 @@ img.card-chip {
     align-items: center;
     gap: 5px;
 
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .arrow {
